@@ -27,6 +27,6 @@ int main() {
     vector<int> arr = {5, 2, -1, 0, 3};
     int k = 3;
 
-    // cout << maxSum(arr, k) << endl;
+    cout << maxSum(arr, k) << endl;
     return 0;
 }
