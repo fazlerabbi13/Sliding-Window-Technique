@@ -13,8 +13,8 @@ int maxSum(vector<int>& arr, int k) {
         int current_sum = 0;
 
         // Calculate sum of current subarray of size k
-        // for (int j = 0; j < k; j++)
-        //     current_sum += arr[i + j];
+        for (int j = 0; j < k; j++)
+            current_sum += arr[i + j];
 
         // Update result if required
         // max_sum = max(current_sum, max_sum);
