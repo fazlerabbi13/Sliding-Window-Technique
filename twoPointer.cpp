@@ -17,7 +17,7 @@ int maxSum(vector<int>& arr, int k) {
             current_sum += arr[i + j];
 
         // Update result if required
-        // max_sum = max(current_sum, max_sum);
+        max_sum = max(current_sum, max_sum);
     }
 
     return max_sum;
